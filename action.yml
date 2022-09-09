@@ -35,7 +35,6 @@ inputs:
   julia_args:
     description: 'Additional arguments to pass to Pkg.test under the julia_args kwarg.'
     default: ''
-    required: false
 
 runs:
   using: 'composite'
