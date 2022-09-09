@@ -32,6 +32,10 @@ inputs:
   annotate:
     description: 'Whether or not to attempt to create GitHub annotations to show test failures inline. Only effective on Julia 1.8+.'
     default: 'false'
+  julia_args:
+    description: 'Additional arguments to pass to Pkg.test under the julia_args kwarg.'
+    default: ''
+    required: false
 
 runs:
   using: 'composite'
